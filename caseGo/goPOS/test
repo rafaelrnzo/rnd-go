@@ -1,0 +1,38 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "sku": "SKU-001",
+      "name": "Iceland",
+      "price": 40000
+    },
+    {
+      "id": 2,
+      "sku": "SKU-002",
+      "name": "Whiskey",
+      "price": 2400000
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Iceland",
+          "price": 40000,
+          "qty": 4
+        }
+      ],
+      "subtotal": 160000,
+      "discount": 10,
+      "total": 159990,
+      "paid": 200000,
+      "method": "cash",
+      "change": 40010,
+      "status": "PAID"
+    }
+  ],
+  "next_product_id": 3,
+  "next_order_id": 2
+}
